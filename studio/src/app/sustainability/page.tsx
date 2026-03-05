@@ -60,7 +60,7 @@ export default function SustainabilityPage() {
         )}
         <section className="py-16 lg:py-24">
           <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto space-y-16">
+            <div className="max-w-6xl mx-auto space-y-16">
 
               <div className="text-center">
                  <p className="text-lg text-muted-foreground">
@@ -69,7 +69,7 @@ export default function SustainabilityPage() {
               </div>
 
               <article>
-                <h3 className="font-headline text-3xl font-bold text-primary mb-6 border-l-4 border-accent pl-4">
+                <h3 className="font-headline text-3xl font-bold text-accent mb-6 border-l-4 border-accent pl-4">
                   1. Zero Emissions Goal
                 </h3>
                 <div className="space-y-4 text-muted-foreground">
@@ -102,7 +102,7 @@ export default function SustainabilityPage() {
               </article>
 
               <article>
-                 <h3 className="font-headline text-3xl font-bold text-primary mb-6 border-l-4 border-accent pl-4">
+                 <h3 className="font-headline text-3xl font-bold text-accent mb-6 border-l-4 border-accent pl-4">
                   2. Cost Comparison: Avoiding Electrification
                 </h3>
                 <p className="text-muted-foreground mb-6">
@@ -139,7 +139,7 @@ export default function SustainabilityPage() {
               </article>
 
               <article>
-                 <h3 className="font-headline text-3xl font-bold text-primary mb-6 border-l-4 border-accent pl-4">
+                 <h3 className="font-headline text-3xl font-bold text-accent mb-6 border-l-4 border-accent pl-4">
                   3. Renewable Hydrogen Integration
                 </h3>
                 <p className="text-muted-foreground mb-6">
@@ -176,7 +176,7 @@ export default function SustainabilityPage() {
               </article>
 
               <article>
-                 <h3 className="font-headline text-3xl font-bold text-primary mb-6 border-l-4 border-accent pl-4">
+                 <h3 className="font-headline text-3xl font-bold text-accent mb-6 border-l-4 border-accent pl-4">
                   4. Broader Environmental and Community Benefits
                 </h3>
                 <p className="text-muted-foreground mb-6">
@@ -206,7 +206,7 @@ export default function SustainabilityPage() {
               </article>
 
                <article>
-                <h3 className="font-headline text-3xl font-bold text-primary mb-6 border-l-4 border-accent pl-4">
+                <h3 className="font-headline text-3xl font-bold text-accent mb-6 border-l-4 border-accent pl-4">
                   5. Eligible Programs and Funding Pathways
                 </h3>
                 <p className="text-muted-foreground mb-6">
@@ -226,7 +226,7 @@ export default function SustainabilityPage() {
               </article>
 
               <Card className="text-center p-8 bg-gradient-to-br from-card to-background">
-                <h3 className="font-headline text-2xl font-bold text-primary mb-4">Join the Clean Transportation Revolution</h3>
+                <h3 className="font-headline text-2xl font-bold text-accent mb-4">Join the Clean Transportation Revolution</h3>
                 <p className="text-lg text-muted-foreground mb-6 max-w-2xl mx-auto">
                   Be part of Colorado’s sustainable mobility future with hydrogen-powered commuter rail.
                 </p>

@@ -183,15 +183,15 @@ export default function ConsultingPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-5xl mx-auto space-y-16">
 
-              <div className="text-center max-w-4xl mx-auto">
-                 <h2 className="font-headline text-3xl md:text-4xl font-bold text-primary">Concept to Completion</h2>
+              <div className="text-center max-w-6xl mx-auto">
+                 <h2 className="font-headline text-3xl md:text-4xl font-bold text-accent">Concept to Completion</h2>
                 <p className="mt-4 text-lg text-muted-foreground">
                   Every successful mobility project begins with a clear, data-driven concept. Our consulting division transforms early-stage ideas into actionable plans that meet financial, technical, and regulatory standards. Whether the goal is a hydrogen corridor, freight-to-commuter conversion, or a sustainability audit, we provide full-spectrum expertise at every milestone.
                 </p>
               </div>
               
               <article>
-                <h3 className="font-headline text-3xl font-bold text-primary mb-6 border-l-4 border-accent pl-4">
+                <h3 className="font-headline text-3xl font-bold text-accent mb-6 border-l-4 border-accent pl-4">
                   Our Process
                 </h3>
                 <Card>
@@ -217,7 +217,7 @@ export default function ConsultingPage() {
               </article>
 
               <article>
-                 <h3 className="font-headline text-3xl font-bold text-primary mb-6 border-l-4 border-accent pl-4">
+                 <h3 className="font-headline text-3xl font-bold text-accent mb-6 border-l-4 border-accent pl-4">
                   Why Choose Our Consulting Services
                 </h3>
                 <div className="grid md:grid-cols-2 gap-6">
@@ -236,7 +236,7 @@ export default function ConsultingPage() {
               </article>
               
               <article>
-                <h3 className="font-headline text-3xl font-bold text-primary mb-6 border-l-4 border-accent pl-4">
+                <h3 className="font-headline text-3xl font-bold text-accent mb-6 border-l-4 border-accent pl-4">
                   Work With Us
                 </h3>
                 <p className="text-muted-foreground mb-6">

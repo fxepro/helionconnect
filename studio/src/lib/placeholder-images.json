@@ -2,93 +2,93 @@
   "placeholderImages": [
     {
       "id": "hero-train",
-      "description": "A modern hydrogen-powered train on the tracks with a scenic mountain background.",
-      "imageUrl": "https://picsum.photos/seed/101/1920/1080",
-      "imageHint": "train railway"
+      "description": "A modern train crossing an elevated bridge against a clear sky.",
+      "imageUrl": "/aboodi-vesakaran-9z6zWQ1MrsY-unsplash.jpg",
+      "imageHint": "train bridge"
     },
     {
       "id": "commute-departures",
-      "description": "Close-up on a train wheel and track.",
-      "imageUrl": "https://picsum.photos/seed/102/600/400",
-      "imageHint": "train track"
+      "description": "Multiple blue commuter trains lined up at a rail yard, ready for departure.",
+      "imageUrl": "/ries-bosch-3x7ol2IsIVU-unsplash.jpg",
+      "imageHint": "train yard departures"
     },
     {
       "id": "commute-freight",
-      "description": "An operator in a control room monitoring train schedules.",
-      "imageUrl": "https://picsum.photos/seed/103/600/400",
-      "imageHint": "control room"
+      "description": "A modern train on elevated tracks with a clean blue sky backdrop.",
+      "imageUrl": "/aboodi-vesakaran-9z6zWQ1MrsY-unsplash.jpg",
+      "imageHint": "train operations"
     },
     {
       "id": "commute-infra",
-      "description": "A worker welding a piece of metal for infrastructure.",
-      "imageUrl": "https://picsum.photos/seed/104/600/400",
-      "imageHint": "welding construction"
+      "description": "Close-up of curved rail tracks showing railway infrastructure.",
+      "imageUrl": "/suganth-hsYSrqcZ8Ds-unsplash.jpg",
+      "imageHint": "rail infrastructure"
     },
     {
       "id": "corridor-advantage",
-      "description": "Aerial view of a city with train tracks running through it.",
-      "imageUrl": "https://picsum.photos/seed/105/800/600",
-      "imageHint": "city aerial"
+      "description": "Train tracks stretching into the distance at sunset with a dramatic sky.",
+      "imageUrl": "/konstantin-planinski-Aw2FSwNsb4M-unsplash.jpg",
+      "imageHint": "train corridor sunset"
     },
     {
       "id": "vision-forward",
-      "description": "A futuristic depiction of a connected community with clean transport.",
-      "imageUrl": "https://picsum.photos/seed/106/800/600",
-      "imageHint": "futuristic city"
+      "description": "Train tracks converging through a lush green corridor toward the light.",
+      "imageUrl": "/jorge-montardo-DpCfxR6HpoI-unsplash.jpg",
+      "imageHint": "train tracks future"
     },
     {
       "id": "concept-hero",
-      "description": "Train tracks converging with a city skyline in the background.",
-      "imageUrl": "https://picsum.photos/seed/107/1920/600",
-      "imageHint": "train tracks city"
+      "description": "Train tracks converging through a tree-lined corridor, symbolizing connected communities.",
+      "imageUrl": "/jorge-montardo-DpCfxR6HpoI-unsplash.jpg",
+      "imageHint": "train tracks corridor"
     },
     {
       "id": "technology-hero",
-      "description": "A futuristic hydrogen fuel cell diagram with glowing lines.",
-      "imageUrl": "https://picsum.photos/seed/108/1920/600",
-      "imageHint": "hydrogen fuel cell"
+      "description": "A Stadler FLIRT hydrogen-powered train with distinctive blue and white livery.",
+      "imageUrl": "/projectstadlerflirth238_21514.jpg",
+      "imageHint": "hydrogen train technology"
     },
     {
       "id": "corridors-hero",
-      "description": "Aerial view of train tracks running through a mountain pass.",
-      "imageUrl": "https://picsum.photos/seed/109/1920/600",
-      "imageHint": "train mountain"
+      "description": "Train tracks running through an open landscape at sunset with dramatic clouds.",
+      "imageUrl": "/konstantin-planinski-Aw2FSwNsb4M-unsplash.jpg",
+      "imageHint": "rail corridor landscape"
     },
     {
       "id": "corridor-map",
-      "description": "A map showing the proposed train corridor between Colorado Springs and Denver.",
-      "imageUrl": "https://picsum.photos/seed/110/800/600",
-      "imageHint": "map colorado"
+      "description": "Close-up view of multiple curved rail tracks representing a rail network.",
+      "imageUrl": "/suganth-hsYSrqcZ8Ds-unsplash.jpg",
+      "imageHint": "rail network tracks"
     },
     {
       "id": "partnerships-hero",
-      "description": "Two business professionals shaking hands in front of a train.",
-      "imageUrl": "https://picsum.photos/seed/111/1920/600",
-      "imageHint": "handshake train"
+      "description": "Multiple blue commuter trains at a modern rail yard with electrified infrastructure.",
+      "imageUrl": "/ries-bosch-3x7ol2IsIVU-unsplash.jpg",
+      "imageHint": "train fleet partnerships"
     },
     {
       "id": "sustainability-hero",
-      "description": "A scenic view of wind turbines and solar panels with a train track in the foreground.",
-      "imageUrl": "https://picsum.photos/seed/112/1920/600",
-      "imageHint": "wind turbines solar panels"
+      "description": "A snow-covered train station platform with trains arriving, showcasing clean winter rail operations.",
+      "imageUrl": "/yeoul-shin-QbEfbQ-tzb4-unsplash.jpg",
+      "imageHint": "clean train station"
     },
     {
       "id": "investors-hero",
-      "description": "A graph showing upward trends with a city skyline in the background.",
-      "imageUrl": "https://picsum.photos/seed/113/1920/600",
-      "imageHint": "finance graph city"
+      "description": "A modern train crossing a bridge, representing infrastructure investment.",
+      "imageUrl": "/aboodi-vesakaran-9z6zWQ1MrsY-unsplash.jpg",
+      "imageHint": "train infrastructure investment"
     },
     {
       "id": "advocacy-hero",
-      "description": "A group of diverse people at a meeting, looking at a presentation.",
-      "imageUrl": "https://picsum.photos/seed/114/1920/600",
-      "imageHint": "advocacy meeting"
+      "description": "Train tracks with shadows of people on a platform wall, symbolizing community engagement.",
+      "imageUrl": "/katja-ano-YL5lywUQBJw-unsplash.jpg",
+      "imageHint": "community rail advocacy"
     },
     {
       "id": "consulting-hero",
-      "description": "A team of professionals in a meeting room looking at architectural plans.",
-      "imageUrl": "https://picsum.photos/seed/115/1920/600",
-      "imageHint": "consulting meeting"
+      "description": "A Stadler hydrogen-powered train showcasing modern rail consulting and technology.",
+      "imageUrl": "/projectstadlerflirth238_21514.jpg",
+      "imageHint": "rail consulting technology"
     }
   ]
 }

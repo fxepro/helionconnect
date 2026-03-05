@@ -1,0 +1,11 @@
+# Fix 404: base must point to app directory (studio), plugin required for Next.js routing
+[build]
+  base    = "studio"
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"

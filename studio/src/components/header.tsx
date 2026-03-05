@@ -18,46 +18,42 @@ export function SiteHeader() {
   ];
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="border-b bg-card/50">
+    <header className="sticky top-0 z-50 w-full border-b border-header/30 bg-header text-header-foreground">
+      <div className="border-b border-header/30 bg-topnav text-topnav-foreground">
         <div className="container mx-auto flex h-10 items-center px-4">
-          <nav className="hidden md:flex gap-x-6 text-sm text-muted-foreground flex-1">
-            {topNavLinks.map((link) => (
-              <Link key={link.name} href={link.href} className="hover:text-primary transition-colors">
-                {link.name}
-              </Link>
-            ))}
-          </nav>
-          <div className="flex items-center justify-end space-x-4">
+          <div className="flex items-center space-x-4">
             {socialLinks.map((link) => (
                 <a
                   key={link.name}
                   href={link.href}
-                  className="text-muted-foreground hover:text-primary"
+                  className="text-topnav-foreground/70 hover:text-topnav-foreground"
                   aria-label={link.name}
                 >
                   {link.icon}
                 </a>
               ))}
           </div>
+          <nav className="hidden md:flex gap-x-6 text-[15px] flex-1 justify-end">
+            {topNavLinks.map((link) => (
+              <Link key={link.name} href={link.href} className="text-topnav-foreground/80 hover:text-topnav-foreground transition-colors">
+                {link.name}
+              </Link>
+            ))}
+          </nav>
         </div>
       </div>
       <div className="container mx-auto flex h-16 items-center px-4">
-        <Link href="/" className="mr-6 flex items-center space-x-2">
-          <Logo className="h-6 w-6" />
-          <span className="hidden font-bold sm:inline-block font-headline">Helion Connect</span>
+        <Link href="/" className="mr-6 flex items-center">
+          <Logo className="w-60" />
         </Link>
         <nav className="hidden md:flex gap-6 flex-1">
           {navLinks.map((link) => (
-            <Link key={link.name} href={link.href} className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary">
+            <Link key={link.name} href={link.href} className="text-xl font-medium text-header-foreground/80 transition-colors hover:text-white">
               {link.name}
             </Link>
           ))}
         </nav>
         <div className="flex flex-1 items-center justify-end space-x-4">
-          <Button className="hidden md:inline-flex" variant="accent">
-            Book An Appointment
-          </Button>
           <Sheet>
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon" className="md:hidden">
@@ -66,13 +62,12 @@ export function SiteHeader() {
               </Button>
             </SheetTrigger>
             <SheetContent side="right" className="flex flex-col">
-              <Link href="/" className="mr-6 flex items-center space-x-2 mb-6">
-                <Logo className="h-6 w-6" />
-                <span className="font-bold font-headline">Helion Connect</span>
+              <Link href="/" className="mr-6 flex items-center mb-6">
+                <Logo className="w-60" />
               </Link>
               <div className="flex flex-col space-y-3 flex-1">
                 {navLinks.map((link) => (
-                  <Link key={link.name} href={link.href} className="text-lg font-medium text-foreground hover:text-primary">
+                  <Link key={link.name} href={link.href} className="text-lg font-medium text-foreground hover:text-accent">
                     {link.name}
                   </Link>
                 ))}
@@ -80,22 +75,18 @@ export function SiteHeader() {
                 <div className="my-3 border-t border-border"></div>
 
                 {topNavLinks.map((link) => (
-                  <Link key={link.name} href={link.href} className="text-sm text-muted-foreground hover:text-primary">
+                  <Link key={link.name} href={link.href} className="text-sm text-muted-foreground hover:text-accent">
                     {link.name}
                   </Link>
                 ))}
 
                 <div className="mt-auto space-y-4 pt-6">
-                    <Button variant="accent" className="w-full">
-                    Book An Appointment
-                    </Button>
-
                     <div className="flex items-center justify-center space-x-4">
                         {socialLinks.map((link) => (
                             <a
                             key={link.name}
                             href={link.href}
-                            className={cn("text-muted-foreground hover:text-primary")}
+                            className={cn("text-muted-foreground hover:text-accent")}
                             aria-label={link.name}
                             >
                             {React.cloneElement(link.icon, {className: "h-5 w-5"})}

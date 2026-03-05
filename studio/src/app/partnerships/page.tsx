@@ -92,7 +92,7 @@ export default function PartnershipsPage() {
         )}
         <section className="py-16 lg:py-24">
           <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto space-y-16">
+            <div className="max-w-6xl mx-auto space-y-16">
               
               <div className="text-center">
                  <p className="text-lg text-muted-foreground">
@@ -101,7 +101,7 @@ export default function PartnershipsPage() {
               </div>
               
               <article>
-                <h3 className="font-headline text-3xl font-bold text-primary mb-6 border-l-4 border-accent pl-4">
+                <h3 className="font-headline text-3xl font-bold text-accent mb-6 border-l-4 border-accent pl-4">
                   1. Shared Corridors: Leveraging Underutilized Assets
                 </h3>
                 <div className="space-y-4 text-muted-foreground">
@@ -125,7 +125,7 @@ export default function PartnershipsPage() {
               </article>
 
               <article>
-                 <h3 className="font-headline text-3xl font-bold text-primary mb-6 border-l-4 border-accent pl-4">
+                 <h3 className="font-headline text-3xl font-bold text-accent mb-6 border-l-4 border-accent pl-4">
                   2. Regulatory Context
                 </h3>
                 <p className="text-muted-foreground mb-6">
@@ -162,7 +162,7 @@ export default function PartnershipsPage() {
               </article>
               
               <article>
-                 <h3 className="font-headline text-3xl font-bold text-primary mb-6 border-l-4 border-accent pl-4">
+                 <h3 className="font-headline text-3xl font-bold text-accent mb-6 border-l-4 border-accent pl-4">
                   3. Union Pacific’s Existing Infrastructure
                 </h3>
                 <p className="text-muted-foreground mb-6">
@@ -182,7 +182,7 @@ export default function PartnershipsPage() {
               </article>
 
               <article>
-                 <h3 className="font-headline text-3xl font-bold text-primary mb-6 border-l-4 border-accent pl-4">
+                 <h3 className="font-headline text-3xl font-bold text-accent mb-6 border-l-4 border-accent pl-4">
                   4. Benefits to Union Pacific
                 </h3>
                 <p className="text-muted-foreground mb-6">
@@ -216,7 +216,7 @@ export default function PartnershipsPage() {
               </article>
               
                <article>
-                <h3 className="font-headline text-3xl font-bold text-primary mb-6 border-l-4 border-accent pl-4">
+                <h3 className="font-headline text-3xl font-bold text-accent mb-6 border-l-4 border-accent pl-4">
                   5. Reference Resources
                 </h3>
                 <p className="text-muted-foreground mb-6">
@@ -239,7 +239,7 @@ export default function PartnershipsPage() {
               </article>
 
               <Card className="text-center p-8 bg-gradient-to-br from-card to-background">
-                <h3 className="font-headline text-2xl font-bold text-primary mb-4">Ready to Discuss Partnership Opportunities?</h3>
+                <h3 className="font-headline text-2xl font-bold text-accent mb-4">Ready to Discuss Partnership Opportunities?</h3>
                 <p className="text-lg text-muted-foreground mb-6 max-w-2xl mx-auto">
                   Connect with our team to explore how your region can benefit from shared corridor partnerships.
                 </p>

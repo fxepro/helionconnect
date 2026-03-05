@@ -58,7 +58,7 @@ export default function Home() {
 
   const benefits = [
     {
-      icon: <DollarSign className="size-8 text-primary" />,
+      icon: <DollarSign className="size-8 text-accent" />,
       title: 'Economic',
       points: [
         'Uses existing Union Pacific corridors',
@@ -67,7 +67,7 @@ export default function Home() {
       ],
     },
     {
-      icon: <Leaf className="size-8 text-primary" />,
+      icon: <Leaf className="size-8 text-accent" />,
       title: 'Environmental',
       points: [
         'Cuts regional CO₂ emissions and improves air quality',
@@ -76,7 +76,7 @@ export default function Home() {
       ],
     },
     {
-      icon: <CheckCircle className="size-8 text-primary" />,
+      icon: <CheckCircle className="size-8 text-accent" />,
       title: 'Practical',
       points: [
         'Ready for federal and state clean-transport funding programs',
@@ -113,11 +113,11 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="smarter-commute" className="py-16 lg:py-24 bg-background">
+        <section id="smarter-commute" className="py-16 lg:py-24 bg-section text-section-foreground">
           <div className="container mx-auto px-4">
             <div className="text-center max-w-3xl mx-auto">
-              <h2 className="font-headline text-3xl md:text-4xl font-bold text-primary">A Smarter Way to Commute</h2>
-              <p className="mt-4 text-lg text-muted-foreground">
+              <h2 className="font-headline text-3xl md:text-4xl font-bold text-white">A Smarter Way to Commute</h2>
+              <p className="mt-4 text-lg text-white/80">
                 America’s growing regional corridors demand reliable, sustainable mobility — without the
                 multi-billion-dollar cost of new electrified rail. Our concept reuses existing Union Pacific freight
                 lines for a lightweight, passenger-focused service.
@@ -159,8 +159,8 @@ export default function Home() {
           <div className="container mx-auto px-4">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <h2 className="font-headline text-3xl md:text-4xl font-bold text-primary">The Corridor Advantage</h2>
-                <p className="mt-4 text-lg text-muted-foreground">
+                <h2 className="font-headline text-3xl md:text-4xl font-bold text-accent">The Corridor Advantage</h2>
+                <p className="mt-4 text-lg text-white/80">
                   The backbone of America’s freight network already connects the cities we need to link. Through
                   collaboration with Union Pacific, passenger operations can share existing tracks, sidings, and control
                   systems — a sustainable alternative to new right-of-way construction.
@@ -194,10 +194,10 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="benefits" className="py-16 lg:py-24 bg-background">
+        <section id="benefits" className="py-16 lg:py-24 bg-section text-section-foreground">
           <div className="container mx-auto px-4">
             <div className="text-center max-w-3xl mx-auto">
-              <h2 className="font-headline text-3xl md:text-4xl font-bold text-primary">Benefits at a Glance</h2>
+              <h2 className="font-headline text-3xl md:text-4xl font-bold text-white">Benefits at a Glance</h2>
             </div>
             <div className="mt-12 grid gap-8 md:grid-cols-3">
               {benefits.map((benefit) => (
@@ -235,9 +235,9 @@ export default function Home() {
                 )}
               </div>
               <div className="text-left">
-                <h2 className="font-headline text-3xl md:text-4xl font-bold text-primary">Vision Forward</h2>
+                <h2 className="font-headline text-3xl md:text-4xl font-bold text-accent">Vision Forward</h2>
                 <h3 className="font-headline text-2xl md:text-3xl mt-2">From Concept to Connected Communities</h3>
-                <p className="mt-4 text-lg text-muted-foreground">
+                <p className="mt-4 text-lg text-white/80">
                   The Hydrogen Commuter Rail Initiative aims to become a national model for sustainable intercity transport
                   — beginning with Colorado’s Front Range. By combining proven hydrogen technology with shared-use
                   freight infrastructure, we can redefine what’s possible in American passenger rail — cost-effectively,
@@ -248,7 +248,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="get-involved" className="py-16 lg:py-24 bg-primary text-primary-foreground">
+        <section id="get-involved" className="py-16 lg:py-24 bg-section text-section-foreground">
           <div className="container mx-auto px-4 text-center">
             <h2 className="font-headline text-3xl md:text-4xl font-bold">Get Involved Today</h2>
             <div className="mt-8 flex flex-col sm:flex-row justify-center items-center gap-4">

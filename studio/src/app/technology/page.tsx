@@ -111,7 +111,7 @@ export default function TechnologyPage() {
         )}
         <section className="py-16 lg:py-24">
           <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
+            <div className="max-w-6xl mx-auto">
               <p className="text-lg text-muted-foreground mb-8">
                 The Hydrogen Commuter Rail Initiative builds on the promise of sustainable transport by using a propulsion technology that merges the best of both worlds — the efficiency of electric rail and the flexibility of diesel — without the need for expensive overhead power infrastructure.
               </p>
@@ -120,9 +120,9 @@ export default function TechnologyPage() {
               </p>
             </div>
 
-            <div className="space-y-16 max-w-4xl mx-auto">
+            <div className="space-y-16 max-w-6xl mx-auto">
               <article>
-                <h3 className="font-headline text-3xl font-bold text-primary mb-6 border-l-4 border-accent pl-4">
+                <h3 className="font-headline text-3xl font-bold text-accent mb-6 border-l-4 border-accent pl-4">
                   1. Hydrogen Power 101: How It Works
                 </h3>
                 <div className="space-y-4 text-muted-foreground">
@@ -183,7 +183,7 @@ export default function TechnologyPage() {
               </article>
 
               <article>
-                <h3 className="font-headline text-3xl font-bold text-primary mb-6 border-l-4 border-accent pl-4">
+                <h3 className="font-headline text-3xl font-bold text-accent mb-6 border-l-4 border-accent pl-4">
                   2. No Overhead Wiring: Electrification Without the Grid
                 </h3>
                 <div className="space-y-4 text-muted-foreground">
@@ -229,7 +229,7 @@ export default function TechnologyPage() {
               </article>
               
                <article>
-                <h3 className="font-headline text-3xl font-bold text-primary mb-6 border-l-4 border-accent pl-4">
+                <h3 className="font-headline text-3xl font-bold text-accent mb-6 border-l-4 border-accent pl-4">
                   3. Safety and Refueling
                 </h3>
                 <div className="space-y-4 text-muted-foreground">
@@ -266,7 +266,7 @@ export default function TechnologyPage() {
               </article>
 
                <article>
-                <h3 className="font-headline text-3xl font-bold text-primary mb-6 border-l-4 border-accent pl-4">
+                <h3 className="font-headline text-3xl font-bold text-accent mb-6 border-l-4 border-accent pl-4">
                   4. Environmental Gains
                 </h3>
                 <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6 text-muted-foreground">
@@ -302,7 +302,7 @@ export default function TechnologyPage() {
               </article>
 
               <article>
-                <h3 className="font-headline text-3xl font-bold text-primary mb-6 border-l-4 border-accent pl-4">
+                <h3 className="font-headline text-3xl font-bold text-accent mb-6 border-l-4 border-accent pl-4">
                   5. Comparative Analysis: Diesel vs. Electric vs. Hydrogen
                 </h3>
                 <p className="text-muted-foreground mb-6">
@@ -343,7 +343,7 @@ export default function TechnologyPage() {
               </article>
 
               <Card className="text-center p-8 bg-gradient-to-br from-card to-background">
-                <h3 className="font-headline text-2xl font-bold text-primary mb-4">Ready to Learn More?</h3>
+                <h3 className="font-headline text-2xl font-bold text-accent mb-4">Ready to Learn More?</h3>
                 <p className="text-lg text-muted-foreground mb-6 max-w-2xl mx-auto">
                   Explore how hydrogen technology can transform regional transportation in your area.
                 </p>

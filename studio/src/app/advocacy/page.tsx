@@ -188,17 +188,17 @@ export default function AdvocacyPage() {
         )}
         <section className="py-16 lg:py-24">
           <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto space-y-16">
+            <div className="max-w-6xl mx-auto space-y-16">
 
               <div className="text-center">
-                <h2 className="font-headline text-3xl md:text-4xl font-bold text-primary">Why Advocacy Matters</h2>
+                <h2 className="font-headline text-3xl md:text-4xl font-bold text-accent">Why Advocacy Matters</h2>
                 <p className="mt-4 text-lg text-muted-foreground">
                   Hydrogen rail and corridor reuse are public-interest initiatives that depend on public awareness, community support, and engagement with local and federal decision-makers. Our advocacy initiative helps bridge that gap by equipping you with facts, materials, and templates to make your voice heard.
                 </p>
               </div>
 
               <article>
-                <h3 className="font-headline text-3xl font-bold text-primary mb-6 border-l-4 border-accent pl-4">
+                <h3 className="font-headline text-3xl font-bold text-accent mb-6 border-l-4 border-accent pl-4">
                   1. What We Provide
                 </h3>
                  <p className="text-muted-foreground mb-6">
@@ -215,7 +215,7 @@ export default function AdvocacyPage() {
               </article>
 
               <article>
-                 <h3 className="font-headline text-3xl font-bold text-primary mb-6 border-l-4 border-accent pl-4">
+                 <h3 className="font-headline text-3xl font-bold text-accent mb-6 border-l-4 border-accent pl-4">
                   2. How You Can Get Involved
                 </h3>
                 <p className="text-muted-foreground mb-6">
@@ -235,7 +235,7 @@ export default function AdvocacyPage() {
               </article>
 
               <article>
-                 <h3 className="font-headline text-3xl font-bold text-primary mb-6 border-l-4 border-accent pl-4">
+                 <h3 className="font-headline text-3xl font-bold text-accent mb-6 border-l-4 border-accent pl-4">
                   3. Policy & Legislative Alignment
                 </h3>
                 <p className="text-muted-foreground mb-6">
@@ -254,7 +254,7 @@ export default function AdvocacyPage() {
               </article>
               
               <article>
-                <h3 className="font-headline text-3xl font-bold text-primary mb-6 border-l-4 border-accent pl-4">
+                <h3 className="font-headline text-3xl font-bold text-accent mb-6 border-l-4 border-accent pl-4">
                   4. Become a Corridor Advocate
                 </h3>
                 <p className="text-muted-foreground mb-6">

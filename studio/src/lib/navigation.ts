@@ -2,8 +2,8 @@ export const topHeaderLinks = [
   { name: 'Investors', href: '/investors' },
   { name: 'Advocacy', href: '/advocacy' },
   { name: 'Consulting', href: '/consulting' },
-  { name: 'FAQs', href: '#' },
-  { name: 'Contact', href: '#get-involved' },
+  { name: 'FAQs', href: '/faq' },
+  { name: 'Contact', href: '/contact' },
 ];
 
 export const headerLinks = [
@@ -23,12 +23,13 @@ export const footerLinks = [
   { name: 'Investors', href: '/investors' },
   { name: 'Advocacy', href: '/advocacy' },
   { name: 'Consulting', href: '/consulting' },
-  { name: 'Contact', href: '#' },
-  { name: 'FAQs', href: '#' },
+  { name: 'Contact', href: '/contact' },
+  { name: 'FAQs', href: '/faq' },
 ];
 
 export const legalLinks = [
-  { name: 'Safety Policy', href: '#' },
-  { name: 'Privacy Policy', href: '#' },
-  { name: 'Website Terms of Service', href: '#' },
+  { name: 'Safety Policy', href: '/safety-policy' },
+  { name: 'Privacy Policy', href: '/privacy-policy' },
+  { name: 'Cookie Policy', href: '/cookie-policy' },
+  { name: 'Website Terms of Use', href: '/terms' },
 ];

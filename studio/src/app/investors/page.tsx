@@ -99,7 +99,7 @@ export default function InvestorsPage() {
         )}
         <section className="py-16 lg:py-24">
           <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto space-y-16">
+            <div className="max-w-6xl mx-auto space-y-16">
 
               <div className="text-center">
                 <p className="text-lg text-muted-foreground">
@@ -108,7 +108,7 @@ export default function InvestorsPage() {
               </div>
 
               <article>
-                <h3 className="font-headline text-3xl font-bold text-primary mb-6 border-l-4 border-accent pl-4">
+                <h3 className="font-headline text-3xl font-bold text-accent mb-6 border-l-4 border-accent pl-4">
                   1. Why Invest?
                 </h3>
                  <p className="text-muted-foreground mb-6">
@@ -133,7 +133,7 @@ export default function InvestorsPage() {
               </article>
 
               <article>
-                <h3 className="font-headline text-3xl font-bold text-primary mb-6 border-l-4 border-accent pl-4">
+                <h3 className="font-headline text-3xl font-bold text-accent mb-6 border-l-4 border-accent pl-4">
                   2. Funding Channels
                 </h3>
                  <p className="text-muted-foreground mb-6">
@@ -153,7 +153,7 @@ export default function InvestorsPage() {
               </article>
 
               <article>
-                <h3 className="font-headline text-3xl font-bold text-primary mb-6 border-l-4 border-accent pl-4">
+                <h3 className="font-headline text-3xl font-bold text-accent mb-6 border-l-4 border-accent pl-4">
                   3. Development Plan
                 </h3>
                  <p className="text-muted-foreground mb-6">
@@ -198,7 +198,7 @@ export default function InvestorsPage() {
               </article>
               
                <article>
-                <h3 className="font-headline text-3xl font-bold text-primary mb-6 border-l-4 border-accent pl-4">
+                <h3 className="font-headline text-3xl font-bold text-accent mb-6 border-l-4 border-accent pl-4">
                   4. ROI Summary
                 </h3>
                  <p className="text-muted-foreground mb-6">
@@ -228,7 +228,7 @@ export default function InvestorsPage() {
               </article>
 
               <Card className="text-center p-8 bg-gradient-to-br from-card to-background">
-                <h3 className="font-headline text-2xl font-bold text-primary mb-4">Ready to Invest in the Future?</h3>
+                <h3 className="font-headline text-2xl font-bold text-accent mb-4">Ready to Invest in the Future?</h3>
                 <p className="text-lg text-muted-foreground mb-6 max-w-2xl mx-auto">
                   Connect with our investment team to explore partnership opportunities and funding pathways.
                 </p>

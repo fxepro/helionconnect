@@ -45,7 +45,7 @@ export default function ConceptPage() {
         )}
         <section className="py-16 lg:py-24">
           <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
+            <div className="max-w-6xl mx-auto">
               <p className="text-lg text-muted-foreground mb-8">
                 Across America’s fast-growing regional corridors, the demand for affordable, sustainable, and dependable daily travel continues to rise. Metropolitan areas are expanding beyond traditional commuting ranges, pushing the limits of highways and existing transit systems.
               </p>
@@ -54,9 +54,9 @@ export default function ConceptPage() {
               </p>
             </div>
 
-            <div className="space-y-16 max-w-4xl mx-auto">
+            <div className="space-y-16 max-w-6xl mx-auto">
               <article>
-                <h3 className="font-headline text-3xl font-bold text-primary mb-6 border-l-4 border-accent pl-4">
+                <h3 className="font-headline text-3xl font-bold text-accent mb-6 border-l-4 border-accent pl-4">
                   1. The Problem: Congestion & Cost
                 </h3>
                 <div className="space-y-4 text-muted-foreground">
@@ -95,7 +95,7 @@ export default function ConceptPage() {
               </article>
 
               <article>
-                <h3 className="font-headline text-3xl font-bold text-primary mb-6 border-l-4 border-accent pl-4">
+                <h3 className="font-headline text-3xl font-bold text-accent mb-6 border-l-4 border-accent pl-4">
                   2. The Solution: Shared Infrastructure
                 </h3>
                 <div className="space-y-4 text-muted-foreground">
@@ -136,7 +136,7 @@ export default function ConceptPage() {
               </article>
 
               <article>
-                <h3 className="font-headline text-3xl font-bold text-primary mb-6 border-l-4 border-accent pl-4">
+                <h3 className="font-headline text-3xl font-bold text-accent mb-6 border-l-4 border-accent pl-4">
                   3. The Operating Model
                 </h3>
                 <div className="space-y-6 text-muted-foreground">
@@ -179,7 +179,7 @@ export default function ConceptPage() {
               </article>
 
               <article>
-                <h3 className="font-headline text-3xl font-bold text-primary mb-6 border-l-4 border-accent pl-4">
+                <h3 className="font-headline text-3xl font-bold text-accent mb-6 border-l-4 border-accent pl-4">
                   4. Case Study: Colorado Front Range
                 </h3>
                 <div className="space-y-4 text-muted-foreground">
@@ -213,7 +213,7 @@ export default function ConceptPage() {
               </article>
 
               <article>
-                <h3 className="font-headline text-3xl font-bold text-primary mb-6 border-l-4 border-accent pl-4">
+                <h3 className="font-headline text-3xl font-bold text-accent mb-6 border-l-4 border-accent pl-4">
                   5. A Scalable, Cost-Effective Template
                 </h3>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

@@ -16,15 +16,14 @@ export function SiteFooter() {
   ];
 
   return (
-    <footer className="bg-background border-t">
+    <footer className="bg-header text-header-foreground border-t border-header/30">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
-            <Link href="/" className="flex items-center gap-2 mb-4">
-              <Logo className="h-8 w-8" />
-              <span className="font-headline text-xl font-bold">Helion Connect</span>
+            <Link href="/" className="flex items-center mb-4">
+              <Logo className="w-96" />
             </Link>
-            <p className="text-muted-foreground max-w-md">
+            <p className="text-white/80 max-w-md">
               Reimagining Regional Travel — Clean, Efficient, and Already on Track.
             </p>
           </div>
@@ -33,7 +32,7 @@ export function SiteFooter() {
             <ul className="space-y-2">
               {navLinks.map((link) => (
                 <li key={link.name}>
-                  <Link href={link.href} className="text-muted-foreground hover:text-primary transition-colors">
+                  <Link href={link.href} className="text-white/70 hover:text-accent transition-colors">
                     {link.name}
                   </Link>
                 </li>
@@ -57,12 +56,12 @@ export function SiteFooter() {
           </div>
         </div>
         <div className="mt-12 border-t pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-muted-foreground text-center md:text-left">
+          <p className="text-sm text-white/60 text-center md:text-left">
             © {new Date().getFullYear()} Helion Connect, Colorado Springs, a wholly owned subsidiary of Redstone Global Inc. • All Rights Reserved
           </p>
           <div className="flex space-x-4">
             {legalLinks.map((link) => (
-              <Link key={link.name} href={link.href} className="text-sm text-muted-foreground hover:text-primary transition-colors">
+              <Link key={link.name} href={link.href} className="text-sm text-white/60 hover:text-accent transition-colors">
                 {link.name}
               </Link>
             ))}
