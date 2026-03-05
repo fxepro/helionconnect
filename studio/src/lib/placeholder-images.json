@@ -1,0 +1,94 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-train",
+      "description": "A modern hydrogen-powered train on the tracks with a scenic mountain background.",
+      "imageUrl": "https://picsum.photos/seed/101/1920/1080",
+      "imageHint": "train railway"
+    },
+    {
+      "id": "commute-departures",
+      "description": "Close-up on a train wheel and track.",
+      "imageUrl": "https://picsum.photos/seed/102/600/400",
+      "imageHint": "train track"
+    },
+    {
+      "id": "commute-freight",
+      "description": "An operator in a control room monitoring train schedules.",
+      "imageUrl": "https://picsum.photos/seed/103/600/400",
+      "imageHint": "control room"
+    },
+    {
+      "id": "commute-infra",
+      "description": "A worker welding a piece of metal for infrastructure.",
+      "imageUrl": "https://picsum.photos/seed/104/600/400",
+      "imageHint": "welding construction"
+    },
+    {
+      "id": "corridor-advantage",
+      "description": "Aerial view of a city with train tracks running through it.",
+      "imageUrl": "https://picsum.photos/seed/105/800/600",
+      "imageHint": "city aerial"
+    },
+    {
+      "id": "vision-forward",
+      "description": "A futuristic depiction of a connected community with clean transport.",
+      "imageUrl": "https://picsum.photos/seed/106/800/600",
+      "imageHint": "futuristic city"
+    },
+    {
+      "id": "concept-hero",
+      "description": "Train tracks converging with a city skyline in the background.",
+      "imageUrl": "https://picsum.photos/seed/107/1920/600",
+      "imageHint": "train tracks city"
+    },
+    {
+      "id": "technology-hero",
+      "description": "A futuristic hydrogen fuel cell diagram with glowing lines.",
+      "imageUrl": "https://picsum.photos/seed/108/1920/600",
+      "imageHint": "hydrogen fuel cell"
+    },
+    {
+      "id": "corridors-hero",
+      "description": "Aerial view of train tracks running through a mountain pass.",
+      "imageUrl": "https://picsum.photos/seed/109/1920/600",
+      "imageHint": "train mountain"
+    },
+    {
+      "id": "corridor-map",
+      "description": "A map showing the proposed train corridor between Colorado Springs and Denver.",
+      "imageUrl": "https://picsum.photos/seed/110/800/600",
+      "imageHint": "map colorado"
+    },
+    {
+      "id": "partnerships-hero",
+      "description": "Two business professionals shaking hands in front of a train.",
+      "imageUrl": "https://picsum.photos/seed/111/1920/600",
+      "imageHint": "handshake train"
+    },
+    {
+      "id": "sustainability-hero",
+      "description": "A scenic view of wind turbines and solar panels with a train track in the foreground.",
+      "imageUrl": "https://picsum.photos/seed/112/1920/600",
+      "imageHint": "wind turbines solar panels"
+    },
+    {
+      "id": "investors-hero",
+      "description": "A graph showing upward trends with a city skyline in the background.",
+      "imageUrl": "https://picsum.photos/seed/113/1920/600",
+      "imageHint": "finance graph city"
+    },
+    {
+      "id": "advocacy-hero",
+      "description": "A group of diverse people at a meeting, looking at a presentation.",
+      "imageUrl": "https://picsum.photos/seed/114/1920/600",
+      "imageHint": "advocacy meeting"
+    },
+    {
+      "id": "consulting-hero",
+      "description": "A team of professionals in a meeting room looking at architectural plans.",
+      "imageUrl": "https://picsum.photos/seed/115/1920/600",
+      "imageHint": "consulting meeting"
+    }
+  ]
+}
